@@ -1,0 +1,19 @@
+#header {
+  background: url("TODO.jpg");
+  height: 245px;
+  text-align: center;
+}
+
+.box
+{
+    display:inline-block;
+    border: 2px solid red;
+    width:749.5px;
+    height: 497px;
+    margin:2px
+}
+
+.box .btn{
+  position:absolute;  
+  top: 260px;
+  }
