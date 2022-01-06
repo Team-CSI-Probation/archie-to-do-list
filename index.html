@@ -13,20 +13,28 @@
       <div id="header">
         <strong>MY TASKS MANAGER</strong>
       </div>
-      
+
       <div class="box" id="box1">
         <div class="btn">
-          <input type="button" value="+Add Task">
-          <input type="button" value="+Add Task To List">
-          <input type="date" name="+Add Deadline">
+          <input type="button" value="+Add Task" />
+          <input type="button" value="+Add deadline" /> <input type="date" />
         </div>
 
-        Title:<br />
-        <input type="text" name="Title" />
+        <div class="title">
+          Title:<br />
+          <input type="text" name="Title" /><br /><br />
+        </div>
+
         Description:<br />
-        <input type="text" name="Description" />
+        <textarea name="Description" id="des" cols="70" rows="20"></textarea>
+
+        <div id="btn"><input type="button" value="+Add Tasks to List" /></div>
       </div>
-      <div class="box" id="box2"></div>
+
+      <div class="box" id="box2">
+        Tasks:<br />
+        
+      </div>
     </form>
   </body>
 </html>
