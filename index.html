@@ -12,35 +12,35 @@
   </head>
   <body>
    
-    <form action="backend.python">
+    <form action="">
       <div id="header">
         <strong>MY TASKS MANAGER</strong>
       </div>
-
+      
       <div class="box" id="box1">
         <div class="btn">
-          <input type="button" value="+Add Task" id="b1">
-          <input type="button" value="+Add deadline" id="b2"> <input type="date" id="d"/>
+         <input type="button" value="+Add Task" id="b1">
+          <input type="button" value="+Add deadline" id="b2"> <input type="date" id="d"/> 
         </div>
 
         <div class="title">
           <strong>Title:</strong><br />
-          <input type="text" name="Title" /><br /><br />
+          <input id = "tInput" type="text" name="Title" /><br /><br />
         </div>
 
         <strong>Description:</strong><br />
         <textarea name="Description" id="des" cols="70" rows="20"></textarea>
 
         <div id="btn"><input type="button" value="+Add Tasks to List" /></div>
-      </div>
-
+      </div> 
+    </div></form>
       <div class="box" id="box2">
-         <div id="tasks">Tasks:<br>
-      </div> </form>
-      <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">S No.</th>
+         <div id="tasks"><strong>Tasks:</strong><br>
+       <table class="table">
+        <br><br>  
+        <thead>        
+          <tr> 
+              <th scope="col">SNo.</th>
               <th scope="col">Title</th>
               <th scope="col">Description</th>
               <th scope="col">Deadline</th>
@@ -50,10 +50,14 @@
                  
          <div class="des">
           <tbody>
-           <ul class="List">
+           <!-- <ul class="List">
              <span class=first>Study</span>
-             <span class=second></span><span class=></span><span class=></span><span class=></span><span class=></span>
-           </ul>
+             <span class=second>Buying</span>
+             <span class=Third>Cooking</span>
+
+             <span class=Fourth></span>
+             
+           </ul> -->
             
           </tbody>
          </div>
@@ -62,4 +66,5 @@
       </div>
    
   </body>
-</html>
+  
+  </html>
