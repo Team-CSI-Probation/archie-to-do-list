@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    
     <title>To-do list</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
   </head>
   <body>
+   
     <form action="backend.python">
       <div id="header">
         <strong>MY TASKS MANAGER</strong>
@@ -16,25 +19,53 @@
 
       <div class="box" id="box1">
         <div class="btn">
-          <input type="button" value="+Add Task" />
-          <input type="button" value="+Add deadline" /> <input type="date" />
+          <input type="button" value="+Add Task" id="b1">
+          <input type="button" value="+Add deadline" id="b2"> <input type="date" id="d"/>
         </div>
 
         <div class="title">
-          Title:<br />
+          <strong>Title:</strong><br />
           <input type="text" name="Title" /><br /><br />
         </div>
 
-        Description:<br />
+        <strong>Description:</strong><br />
         <textarea name="Description" id="des" cols="70" rows="20"></textarea>
 
         <div id="btn"><input type="button" value="+Add Tasks to List" /></div>
       </div>
 
       <div class="box" id="box2">
-        Tasks:<br />
+         <div id="tasks">Tasks:<br>
+      </div> </form>
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">S No.</th>
+              <th scope="col">Title</th>
+              <th scope="col">Description</th>
+              <th scope="col">Deadline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+            </tr>
+          </tbody>
+          </div>
+         
+         <div class="des"></div>
+          <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tbody>
+         </div>
         
+      </table>
       </div>
-    </form>
+   
   </body>
 </html>
