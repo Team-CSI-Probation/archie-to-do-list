@@ -1,14 +1,18 @@
 #header {
+
   background: url("TODO.jpg");
+  
   height: 245px;
   text-align: center;
-  top: auto;
-}
+  top:auto;
+  color: indianred;
+  font-size: 60px;}
+  
 
 .box {
   
   border: 2px solid red;
-  width: 749.5px;
+  width: 751.6px;
   height: 497px;
   margin: 2px;
   float: left;
@@ -59,9 +63,9 @@
   top: 380px;
    }
 
-.table {
-  padding-left: 20px;
-  
+.box #box2.table {
+  padding-left: 100px;
+  column-width: 100px;
   float: left;
   position: relative;
 }
