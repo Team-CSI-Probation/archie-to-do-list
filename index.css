@@ -1,16 +1,14 @@
 #header {
-
   background: url("TODO.jpg");
-  
+
   height: 245px;
   text-align: center;
-  top:auto;
+  top: auto;
   color: indianred;
-  font-size: 60px;}
-  
+  font-size: 60px;
+}
 
 .box {
-  
   border: 2px solid red;
   width: 751.6px;
   height: 497px;
@@ -30,38 +28,35 @@
 .box #box2 #tasks {
   position: absolute;
   top: 260px;
-  left:100px}
+  left: 100px;
+}
 
 .box .btn {
-     
   margin-top: 10px;
   float: right;
   justify-content: space-between;
-  }
+}
 
-.box .btn #b1
-{
+.box .btn #b1 {
   background-color: rgb(82, 177, 82);
   border-radius: 4px;
-  cursor:pointer
-  }
+  cursor: pointer;
+}
 
-.box .btn #b2
-{
+.box .btn #b2 {
   background-color: yellow;
   border-radius: 4px;
-  cursor:pointer }
+  cursor: pointer;
+}
 
-.box .btn #d
-{
-  cursor:pointer;
+.box .btn #d {
+  cursor: pointer;
 }
 .box #btn {
-  
   float: right;
   position: relative;
   top: 380px;
-   }
+}
 
 .box #box2.table {
   padding-left: 100px;
