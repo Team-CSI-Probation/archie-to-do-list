@@ -1,12 +1,16 @@
-var list=document.getElementsByTagName('li');
-var i;
-for(i=0;i<list.length;i++)
+function addTasks()
 {
-   var span=document.createElement("SPAN");
-   var text=document.createTextNode("txt");
-   span.className="close";
-   span.appendChild(text);
-   list[i].appendChild(span);
-}
+  var listitem=document.createElement('.List');
+  var tit=document.getElementById('tInput').value;
+  var elem=document.createElement('elem');
+  var txtnode=document.createTextNode('txtnode');
+  document.getElementById('btn').addEventListener('click', function(){
+      if(tit==" ")
+        alert("Please enter Task!");
+    
+      
+      
+  })
 
-}
+    }
+    
